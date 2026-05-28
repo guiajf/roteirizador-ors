@@ -76,7 +76,7 @@ Para cadastrar e obter sua chave de **API** gratuita no *Openrouteservice* (**OR
 ```
 
     env: ORS_MODE=driving-car
-    env: ORS_API_KEY=eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjMwMWNiMDE3NWE1ZjRmM2E5NzMxNTQyZTE0ZGYzMzA3IiwiaCI6Im11cm11cjY0In0=
+    env: ORS_API_KEY=***********************************************************************************
 
 
 ### Realizamos o diagnóstico da conexão
