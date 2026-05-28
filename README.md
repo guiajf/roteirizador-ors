@@ -10,7 +10,7 @@ No entanto, a abordagem apresentou desafios práticos significativos: a necessid
 
 O processo de autenticação e configuração revelou-se um ponto de atrito, exigindo ajustes manuais no ambiente de desenvolvimento. Outra desvantagem foi a latência das requisições, já que cada par de pontos demandava uma chamada **HTTP**, tornando o cálculo de matrizes de distância para muitos pontos um processo relativamente lento, embora ainda aceitável para dezenas de localizações.
 
-Se você perdeu, leia [aqui]() o primeiro artigo da série.
+Leia [aqui](https://github.com/guiajf/roteirizador-osmnx) o primeiro artigo da série.
 
 ### Bibliotecas
 
