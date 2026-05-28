@@ -1,4 +1,4 @@
-# Roteirizador com *OpenRouteService* (ORS)
+# Roteirizador com *OpenRouteService*
 
 ### Introdução
 
@@ -566,7 +566,7 @@ m.get_root().html.add_child(folium.Element(legenda))
 m
 ```
 
-![](
+![](circulos_concentricos.png)
 
 
 ### Tudo junto fica assim
@@ -1199,13 +1199,13 @@ mapa.save('roteiro_ors_final.html')
     Total de clusters: 8
     Distância total: 41.36 km
 
-
+### Exibimos o mapa
 
 ```python
 display(mapa)
 ```
 
-![]()
+![](roteiros_ors_cluster.png)
 
 **Considerações finais**
 
