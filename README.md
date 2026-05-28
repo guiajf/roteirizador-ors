@@ -566,11 +566,7 @@ m.get_root().html.add_child(folium.Element(legenda))
 m
 ```
 
-
-
-
-    <branca.element.Element at 0x72387a570920>
-
+![](
 
 
 ### Tudo junto fica assim
@@ -1206,8 +1202,10 @@ mapa.save('roteiro_ors_final.html')
 
 
 ```python
-#display(mapa)
+display(mapa)
 ```
+
+![]()
 
 **Considerações finais**
 
