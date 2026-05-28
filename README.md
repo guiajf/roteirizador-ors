@@ -1211,6 +1211,8 @@ display(mapa)
 
 Buscamos explicar, de forma acessível, como um script Python transforma coordenadas geográficas em rotas reais, seguindo as ruas e calculando distâncias precisas, com uso do *OpenRouteService*, uma **API** de roteamento gratuita baseada no *OpenStreetMap*, e técnicas de ciência de dados para agrupar e otimizar trajetos.
 
+Acesse o mapa interativo em: https://guiajf.github.io/roteirizador-ors/.
+
 
 
 **Referências**
