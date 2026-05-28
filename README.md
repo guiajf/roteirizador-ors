@@ -1205,7 +1205,7 @@ mapa.save('roteiro_ors_final.html')
 display(mapa)
 ```
 
-![](roteiros_ors_cluster.png)
+![](roteiros_ors_clusters.png)
 
 **Considerações finais**
 
