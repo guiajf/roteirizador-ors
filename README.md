@@ -490,10 +490,6 @@ resumo = {
 df_resumo = pd.DataFrame(resumo)
 print("\n📋 RESUMO PARA RELATÓRIO")
 print(df_resumo.to_markdown(index=False))
-
-# Salvar para CSV
-#df_resumo.to_csv('resumo_estatisticas.csv', index=False, encoding='utf-8-sig')
-#print("\n💾 Tabela salva: resumo_estatisticas.csv")
 ```
 
     
@@ -566,12 +562,8 @@ legenda = '''
 '''
 m.get_root().html.add_child(folium.Element(legenda))
 
-
-#m.save('estatisticas_halfeld.html')
-#print("✅ Mapa salvo: estatisticas_halfeld.html")
-
 # Visualizamos o mapa
-#m
+m
 ```
 
 
