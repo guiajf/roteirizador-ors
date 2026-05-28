@@ -1,8 +1,5 @@
 # Roteirizador com *OpenRouteService* (ORS)
 
-Descrição do repositório GitHub:
-"Aprenda a substituir linhas retas por rotas reais, clusterizar bares com K-Means e otimizar trajetos com TSP com Python, OpenRouteService."
-
 ### Introdução
 
 A segunda abordagem integra a **API** do *OpenRouteService* (**ORS**), que introduziu o conceito de rotas reais baseadas na infraestrutura viária do *OpenStreetMap*. Esta solução passou a considerar corretamente a orientação das ruas, restrições de tráfego e diferentes modos de transporte (pedestre, carro, bicicleta), retornando distâncias e durações muito mais realistas. 
@@ -1243,14 +1240,3 @@ Luu, Quang Trung; Aibin, Michal. *Traveling Salesman Problem: Exact Solutions vs
 **Scikit-Learn**. *K-means clustering*. Scikit-learn Documentation, 2026. Disponível em: https://scikit-learn.org/stable/modules/clustering.html#k-means. Acesso em: 24 maio 2026.
 
 Veness, Chris. *Calculate distance, bearing and more between latitude/longitude points*, 2022. Disponível em: https://www.movable-type.co.uk/scripts/latlong.html. Acesso em: 24 maio 2026.
-
-**IMAGEM ARTIGO LINKEDIN**
-
-Imagem: Aco_branches.svg.png
-
-Fonte: https://commons.wikimedia.org/wiki/File:Aco_branches.svg
-
-
-```python
-
-```
