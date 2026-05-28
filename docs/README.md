@@ -8,5 +8,5 @@ do evento possa percorrer os bares agrupados em pequenos clusters.
 - `roteiro_ors.html` - Mapa interativo gerado pelo Python
 
 ## Acesse o mapa
-[https://guiajf.github.io/roteirizador-ors/](https://guiajf.github.io/roteirizador-ors/)
+#[https://guiajf.github.io/roteirizador-ors/](https://guiajf.github.io/roteirizador-ors/)
 
