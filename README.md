@@ -2,15 +2,13 @@
 
 ### Introdução
 
-No [primeiro](https://guiajf.github/roteirizador-osmnx) apresentamos as funcionalidades do pacote Osmnx em conjunto com NetworkX. A segunda abordagem integra a **API** do *OpenRouteService* (**ORS**), que introduziu o conceito de rotas reais baseadas na infraestrutura viária do *OpenStreetMap*. Esta solução passou a considerar corretamente a orientação das ruas, restrições de tráfego e diferentes modos de transporte (pedestre, carro, bicicleta), retornando distâncias e durações muito mais realistas. 
+No [primeiro]()https://github.com/guiajf/roteirizador-osmnx apresentamos as funcionalidades do pacote Osmnx em conjunto com NetworkX. A segunda abordagem integra a **API** do *OpenRouteService* (**ORS**), que introduziu o conceito de rotas reais baseadas na infraestrutura viária do *OpenStreetMap*. Esta solução passou a considerar corretamente a orientação das ruas, restrições de tráfego e diferentes modos de transporte (pedestre, carro, bicicleta), retornando distâncias e durações muito mais realistas. 
 
 A principal vantagem do **ORS** é a qualidade dos dados e a riqueza dos metadados fornecidos, incluindo geometria detalhada das rotas, altitudes e instruções passo a passo. Além disso, a **API** oferece suporte a múltiplos perfis de roteamento, como *foot-walking* para pedestres e *driving-car* para automóveis, permitindo adaptar o planejamento ao meio de locomoção dos participantes do evento. 
 
 No entanto, a abordagem apresentou desafios práticos significativos: a necessidade de cadastro e obtenção de chave de **API**, limites diários de requisições e uma política de segurança que exige cabeçalhos HTTP específicos como *Referer*, que causou erros 403 durante os testes. 
 
 O processo de autenticação e configuração revelou-se um ponto de atrito, exigindo ajustes manuais no ambiente de desenvolvimento. Outra desvantagem foi a latência das requisições, já que cada par de pontos demandava uma chamada **HTTP**, tornando o cálculo de matrizes de distância para muitos pontos um processo relativamente lento, embora ainda aceitável para dezenas de localizações.
-
-Leia [aqui](https://github.com/guiajf/roteirizador-osmnx) o primeiro artigo da série.
 
 ### Bibliotecas
 
