@@ -2,7 +2,7 @@
 
 ### Introdução
 
-A segunda abordagem integra a **API** do *OpenRouteService* (**ORS**), que introduziu o conceito de rotas reais baseadas na infraestrutura viária do *OpenStreetMap*. Esta solução passou a considerar corretamente a orientação das ruas, restrições de tráfego e diferentes modos de transporte (pedestre, carro, bicicleta), retornando distâncias e durações muito mais realistas. 
+No [primeiro](https://guiajf.github/roteirizador-osmnx) apresentamos as funcionalidades do pacote Osmnx em conjunto com NetworkX. A segunda abordagem integra a **API** do *OpenRouteService* (**ORS**), que introduziu o conceito de rotas reais baseadas na infraestrutura viária do *OpenStreetMap*. Esta solução passou a considerar corretamente a orientação das ruas, restrições de tráfego e diferentes modos de transporte (pedestre, carro, bicicleta), retornando distâncias e durações muito mais realistas. 
 
 A principal vantagem do **ORS** é a qualidade dos dados e a riqueza dos metadados fornecidos, incluindo geometria detalhada das rotas, altitudes e instruções passo a passo. Além disso, a **API** oferece suporte a múltiplos perfis de roteamento, como *foot-walking* para pedestres e *driving-car* para automóveis, permitindo adaptar o planejamento ao meio de locomoção dos participantes do evento. 
 
